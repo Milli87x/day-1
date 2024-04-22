@@ -46,12 +46,3 @@ print(type(name))
 print(type(family_name))
 print(type(country))
 
-
-
-
-
-
-
-
-
-
