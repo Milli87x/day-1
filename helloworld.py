@@ -46,3 +46,51 @@ print(type(name))
 print(type(family_name))
 print(type(country))
 
+# number 2 isnt something i can show here
+# number 3 
+""" 1 Write an example for different Python data types such as 
+Number(Integer, Float, Complex),  
+String, 
+Boolean, 
+List, 
+Tuple,
+Set and Dictionary.
+
+2  Find an Euclidian distance between (2, 3) and (10, 8) """
+
+
+integer=10
+float=3.900000
+complex= 8 + 0j
+string='wassup wassuuuuuuuuuuup'
+list=['food', 10, 20,'hello']
+tuple=('monday',90, 'tueday')
+set={1,2,3,4,5,6,7}
+dictonaries={'name':'gareth_bale',
+             'age':30,
+             'country':'wales',
+             'hobbies':'golf'}
+
+print(type(integer))
+print(type(float))
+print(type(complex))
+print(type(string))
+print(type(list))
+print(type(tuple))
+print(type(set))
+print(type(dictonaries))
+
+#2
+#Import the math library .
+import math
+#use the numbers as coordinates
+x1=2 
+y1=3
+x2=10 
+y2=8
+'''eculidean distance is calculated as 
+  squared root
+  **2=squared or the power of 2 
+  '''
+distance=math.sqrt((x2-x1)** 2 + (y2-y1)** 2)
+print("The Euclidean is:", distance)
